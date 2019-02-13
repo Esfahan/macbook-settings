@@ -1,0 +1,20 @@
+"*":
+  core:
+    disabledPackages: [
+      "autocomplete-atom-api"
+      "autocomplete-css"
+      "autocomplete-html"
+      "autocomplete-plus"
+      "autocomplete-snippets"
+    ]
+    telemetryConsent: "no"
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+  "exception-reporting":
+    userId: "1c35119e-2abd-4c16-99e7-62c3841a45a7"
+  welcome:
+    showOnStartup: false
+  "bracket-matcher":
+        autocompleteBrackets: false
+
