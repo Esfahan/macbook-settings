@@ -1,8 +1,8 @@
 {
-  "title": "A setting for Intellij",
+  "title": "The setting for Intellij",
   "rules": [
     {
-      "description": "From command to control in Intellij",
+      "description": "From left_command to left_control in Intellij",
       "manipulators": [
         {
           "type": "basic",
