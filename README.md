@@ -3,7 +3,8 @@
 ## karabiner
 
 ```
-$ cp karabiner.json ~/.config/karabiner
+$ cp karabiner/karabiner.json ~/.config/karabiner
+$cp karabiner/intellij.json ~/.config/karabiner/assets/complex_modifications/intellij.json
 ```
 
 ## iterm2
