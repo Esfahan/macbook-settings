@@ -1,0 +1,28 @@
+{
+  "title": "The setting for Intellij",
+  "rules": [
+    {
+      "description": "From left_command to left_control in Intellij",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_command"
+          },
+          "to": {
+            "key_code": "left_control"
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.jetbrains\\.intellij",
+                "^com\\.microsoft\\.VSCode$"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
