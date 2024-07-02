@@ -10,7 +10,7 @@ $ cp karabiner/intellij.json ~/.config/karabiner/assets/complex_modifications/in
 ## iterm2
 Specify a path of plist at following.
 
-`General -> Load preferences from a custom folder or URL`
+`General -> Setteing -> Load preferences from a custom folder or URL`
 
 
 ## Atom
