@@ -184,5 +184,5 @@ Disable GOPATH
 
 Tab limit
 
-![inttelij-tab](/images/inttelij-tab.png) 
+![inttelij-tablimit](/images/inttelij-tablimit.png) 
 
