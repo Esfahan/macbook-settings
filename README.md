@@ -6,8 +6,8 @@
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## .zshrc
-Added below into ~/.zshrc
+## ~/.zprofile
+Added below into ~/.zprofile
 
 ```
 # Homebrew
@@ -80,7 +80,7 @@ bash -c "$(curl --fail --show-error --silent --location https://raw.githubuserco
 ```
 
 ```
-source ~/.zshrc
+source ~/.zprofile
 ```
 
 ```
@@ -94,7 +94,7 @@ zinit self-update
 zinit light asdf-vm/asdf
 ```
 
-Added below into ~/.zshrc
+Added below into ~/.zprofile
 
 ```
 zinit light asdf-vm/asdf
@@ -102,7 +102,7 @@ fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
 ```
 
-### ~/.zshrc
+### ~/.zprofile
 
 ```sh
 ### Added by Zinit's installer
@@ -157,6 +157,22 @@ asdf install swag latest
 asdf plugin add "golangci-lint" "https://github.com/kc-workspace/asdf-golangci-lint.git"
 ```
 
+### golang-migrate
+
+```bash
+go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@v4.15.1
+
+# ~/.asdf/installs/golang/1.22.4/packages/bin/migrate
+```
+
+~/.zprofile
+
+```
+export PATH=$HOME/.asdf/installs/golang/1.22.4/packages/bin:$PATH
+```
+
+
+
 ## Intellij for golang
 Enable Go modules integration and Enable vendoring support automatically
 
@@ -165,4 +181,8 @@ Enable Go modules integration and Enable vendoring support automatically
 Disable GOPATH
 
 ![intellij-go-path](/images/intellij-go-path.png) 
+
+Tab limit
+
+![inttelij-tab](/images/inttelij-tab.png) 
 
