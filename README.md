@@ -1,5 +1,25 @@
 # macbook-settings
 
+## github
+
+```
+ssh-keygen -t rsa -f esfahan_id_rsa 
+```
+
+- Add SSH keys
+    - https://github.com/settings/keys
+
+~/.ssh/config
+
+```ini
+Host github.com
+    User git
+    Hostname ssh.github.com
+    Port 443
+    IdentityFile ~/.ssh/esfahan_id_rsa
+```
+
+
 ## karabiner
 
 ```
