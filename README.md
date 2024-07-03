@@ -1,5 +1,23 @@
 # macbook-settings
 
+## oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+## .zshrc
+Added below into ~/.zshrc
+
+```
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# alias
+alias ll='ls -l'
+alias gs='git status'
+```
+
 ## github
 
 ```
@@ -147,3 +165,4 @@ Enable Go modules integration and Enable vendoring support automatically
 Disable GOPATH
 
 ![intellij-go-path](/images/intellij-go-path.png) 
+
