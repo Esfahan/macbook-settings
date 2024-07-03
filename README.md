@@ -19,6 +19,10 @@ Host github.com
     IdentityFile ~/.ssh/esfahan_id_rsa
 ```
 
+## Input Sources
+
+![system-keyboard-input_sources](/images/system-keyboard-input_sources.png) 
+
 
 ## karabiner
 
@@ -31,11 +35,24 @@ mkdir ~/.config/karabiner/assets/complex_modifications/
 cp karabiner/intellij.json ~/.config/karabiner/assets/complex_modifications/intellij.json
 ```
 
+Enable the setting for Intellij
+
+![karabiner-complex-modifications](/images/karabiner-complex-modifications.png) 
+
 ## iterm2
 Specify a path of plist at following.
 
 `General -> Setteing -> Load preferences from a custom folder or URL`
 
+![iterm-load-setting](/images/iterm-load-setting.png) 
+
+keybind
+
+![iterm-keybind](/images/iterm-keybind.png) 
+
+Disable beep
+
+![iterm-beep](/images/iterm-beep.png) 
 
 ## zinit
 https://github.com/zdharma-continuum/zinit#install
@@ -121,3 +138,12 @@ asdf install swag latest
 ```
 asdf plugin add "golangci-lint" "https://github.com/kc-workspace/asdf-golangci-lint.git"
 ```
+
+## Intellij for golang
+Enable Go modules integration and Enable vendoring support automatically
+
+![intellij-go-module](/images/intellij-go-module.png) 
+
+Disable GOPATH
+
+![intellij-go-path](/images/intellij-go-path.png) 
