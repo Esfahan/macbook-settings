@@ -18,6 +18,13 @@ alias ll='ls -l'
 alias gs='git status'
 ```
 
+## Enable continuous movement by holding down the button
+Type below on Iterm2.
+
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
 ## github
 
 ```
