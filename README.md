@@ -6,24 +6,16 @@
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## ~/.zprofile
-Added below into ~/.zprofile
-
-```
-# Homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# alias
-alias ll='ls -l'
-alias gs='git status'
-```
-
 ## Enable continuous movement by holding down the button
 Type below on Iterm2.
 
 ```
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
+
+## ~/.zprofile
+[.zprofile](zprofile)
+
 
 ## github
 
