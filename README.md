@@ -154,3 +154,9 @@ Tab limit
 
 ![inttelij-tablimit](/images/inttelij-tablimit.png) 
 
+
+## mysql-cli
+
+```
+brew install mysql-client
+```
