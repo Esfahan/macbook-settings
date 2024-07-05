@@ -160,3 +160,9 @@ Tab limit
 ```
 brew install mysql-client
 ```
+
+Installed localtion
+
+```
+/opt/homebrew/opt/mysql-client/bin/mysql
+```
