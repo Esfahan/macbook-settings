@@ -24,4 +24,5 @@ zinit light asdf-vm/asdf
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
 
+# go pkgs
 export PATH=$HOME/.asdf/installs/golang/1.22.4/packages/bin:$PATH
