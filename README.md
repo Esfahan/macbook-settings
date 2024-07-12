@@ -166,3 +166,25 @@ Installed localtion
 ```
 /opt/homebrew/opt/mysql-client/bin/mysql
 ```
+
+## NodeJS
+
+```
+asdf plugin add nodejs
+asdf list all nodejs
+asdf install nodejs 18.20.4
+```
+
+yarn
+
+```
+brew install gpg
+asdf plugin add yarn https://github.com/twuni/asdf-yarn.git
+asdf list all yarn
+asdf install yarn 1.22.22
+
+corepack enable
+asdf reshim nodejs
+```
+
+
