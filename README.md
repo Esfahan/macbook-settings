@@ -187,4 +187,18 @@ corepack enable
 asdf reshim nodejs
 ```
 
+## vimrc
 
+```ini
+autocmd FileType * setlocal formatoptions-=ro
+set ambiwidth=double
+highlight Comment ctermfg=lightblue
+set enc=utf-8
+set paste
+set hlsearch
+
+set tabstop=2 shiftwidth=2 expandtab
+
+set term=xterm-256color
+syntax on
+```
