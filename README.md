@@ -173,6 +173,9 @@ Installed localtion
 asdf plugin add nodejs
 asdf list all nodejs
 asdf install nodejs 18.20.4
+
+# Check installed
+asdf list nodejs
 ```
 
 yarn
@@ -202,3 +205,21 @@ set tabstop=2 shiftwidth=2 expandtab
 set term=xterm-256color
 syntax on
 ```
+
+
+## Intellij for Python
+
+Get your python path with poetry
+
+```
+$ poetry env info
+# Virtualenv -> Executable
+```
+
+- Open the Project settings
+    - `command + ;`
+    - Project settings -> Project -> SDK -> python path with poetry
+
+
+
+
