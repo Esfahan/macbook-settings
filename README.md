@@ -232,5 +232,6 @@ $ poetry env info
     - Project settings -> Project -> SDK -> python path with poetry
 
 
-
-
+## VSCode Plugins
+- SQL Formatter
+- Vim
