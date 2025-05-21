@@ -52,6 +52,10 @@ mkdir ~/.config/karabiner/assets/complex_modifications/
 cp karabiner/intellij.json ~/.config/karabiner/assets/complex_modifications/intellij.json
 ```
 
+basic
+
+![karabiner-complex-modifications](/images/karabiner-basic.png) 
+
 Enable the setting for Intellij
 
 ![karabiner-complex-modifications](/images/karabiner-complex-modifications.png) 
@@ -70,6 +74,13 @@ keybind
 Disable beep
 
 ![iterm-beep](/images/iterm-beep.png) 
+
+
+## Homebrew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ## zinit
 https://github.com/zdharma-continuum/zinit#install
