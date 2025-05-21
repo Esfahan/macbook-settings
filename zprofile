@@ -25,7 +25,7 @@ fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
 
 # go pkgs
-export PATH=$HOME/.asdf/installs/golang/1.22.4/packages/bin:$PATH
+export PATH=$HOME/.asdf/installs/golang/1.24.3/packages/bin:$PATH
 
 # mysql-cli
 export PATH=/opt/homebrew/opt/mysql-client/bin:$PATH
