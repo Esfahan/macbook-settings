@@ -235,4 +235,3 @@ $ poetry env info
 ## VSCode plugins
 - SQL Formatter
 - Vim
-
