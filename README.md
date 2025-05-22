@@ -238,15 +238,15 @@ syntax on
 ## Intellij for Python
 ### Open the Project settings
 - `command + ;`
-- Project settings -> Project -> SDK -> python path with poetry
-
 
 ### Add Python SDK from disk
+Platform Settings -> SDKs
+
 ![inttelij-python-setup001](/images/intellij-python-setup001.png) 
 
 
 ### Set Base interpreter
-Enter `Executable` into 'Base interpreter'
+- Enter `Executable` into 'Base interpreter'
 
 ```bash
 $ poetry env info
@@ -259,8 +259,16 @@ Executable:     /Users/username/Library/Caches/pypoetry/virtualenvs/your-project
 Valid:          True
 ```
 
+- Virtualenv Environment
+
 ![inttelij-python-setup002](/images/intellij-python-setup002.png) 
 
+
+### Project Settings
+- Project Settings -> Project
+- Enter the Base interpreter path created in the previous section into the SDK input field.
+
+![inttelij-python-setup003](/images/intellij-python-setup003.png) 
 
 ## VSCode plugins
 - SQL Formatter
