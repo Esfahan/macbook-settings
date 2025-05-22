@@ -151,6 +151,23 @@ Installed location
 $HOME/.asdf/installs/golang/1.22.4/packages/bin
 ```
 
+## python
+
+```
+asdf plugin-add python
+asdf plugin-add poetry
+```
+
+```
+asdf list-all python
+asdf install python latest
+```
+
+```
+asdf list-all poetry
+asdf install poetry latest
+```
+
 
 ## Intellij for golang
 Enable Go modules integration and Enable vendoring support automatically
