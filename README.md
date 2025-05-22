@@ -249,6 +249,29 @@ $ poetry env info
     - Project settings -> Project -> SDK -> python path with poetry
 
 
+- Add Python SDK from disk
+
+![inttelij-python-setup001](/images/intellij-python-setup001.png) 
+
+
+- Base interpreter
+
+Enter `Executable` into 'Base interpreter'
+
+```bash
+$ poetry env info
+
+Virtualenv
+Python:         xxxxxx
+Implementation: xxxxxx
+Path:           xxxxxx
+Executable:     /Users/username/Library/Caches/pypoetry/virtualenvs/your-project-name-GZae3_ze-py3.12/bin/python # Use this
+Valid:          True
+```
+
+![inttelij-python-setup002](/images/intellij-python-setup002.png) 
+
+
 ## VSCode plugins
 - SQL Formatter
 - Vim
