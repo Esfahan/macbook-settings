@@ -236,26 +236,16 @@ syntax on
 
 
 ## Intellij for Python
-
-Get your python path with poetry
-
-```
-$ poetry env info
-# Virtualenv -> Executable
-```
-
-- Open the Project settings
-    - `command + ;`
-    - Project settings -> Project -> SDK -> python path with poetry
+### Open the Project settings
+- `command + ;`
+- Project settings -> Project -> SDK -> python path with poetry
 
 
-- Add Python SDK from disk
-
+### Add Python SDK from disk
 ![inttelij-python-setup001](/images/intellij-python-setup001.png) 
 
 
-- Base interpreter
-
+### Set Base interpreter
 Enter `Executable` into 'Base interpreter'
 
 ```bash
