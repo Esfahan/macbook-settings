@@ -140,9 +140,10 @@ asdf plugin add "golangci-lint" "https://github.com/kc-workspace/asdf-golangci-l
 ### golang-migrate
 
 ```bash
+asdf install golang 1.24.0
 go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@v4.15.1
 
-# ~/.asdf/installs/golang/1.22.4/packages/bin/migrate
+# ~/.asdf/installs/golang/1.24.0/bin/migrate
 ```
 
 Installed location
