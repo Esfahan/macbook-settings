@@ -210,7 +210,7 @@ asdf list nodejs
 yarn
 
 ```
-brew install gpg
+brew install gpg corepack
 asdf plugin add yarn https://github.com/twuni/asdf-yarn.git
 asdf list all yarn
 asdf install yarn 1.22.22
