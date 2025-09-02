@@ -201,7 +201,7 @@ Installed localtion
 ```
 asdf plugin add nodejs
 asdf list all nodejs
-asdf install nodejs 18.20.4
+asdf install nodejs 24.7.0
 
 # Check installed
 asdf list nodejs
